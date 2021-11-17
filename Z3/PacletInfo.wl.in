@@ -1,0 +1,15 @@
+
+Paclet[
+  Name -> "Z3",
+  Version -> "0.1",
+  WolframVersion -> "11.0+",
+  Description -> "Wolfram Language API for Z3",
+  Creator -> "Brenton Bostick <brenton@wolfram.com>",
+  BuildDate -> "",
+  BuildNumber -> 0,
+  Updating -> Automatic,
+  Extensions -> {
+    {"Kernel", Root -> "Kernel", Context -> "Z3`"},
+    {"LibraryLink"}
+  }
+]
