@@ -187,7 +187,7 @@ Module[{m, result},
       If[m != 0,
         Z3modelIncRef[ctx, m]
       ];
-      print["sat\n%s\n", Z3modelToString[ctx, m]];
+      printf["sat\n%s\n", Z3modelToString[ctx, m]];
     ,
     _,
       unreachable[]
